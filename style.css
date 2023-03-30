@@ -1,0 +1,97 @@
+/* Add CSS properties to the given divs to position them at their assigned places. The width and height of big boxes are 50% and small boxes are 50 pixels. The colors used in the challenge are:
+
+For main boxes:
+
+#ccc
+
+#e86f88
+
+#79badb
+
+#a2dbb1
+
+For small boxes:
+
+red
+
+orange
+
+steelblue
+
+coral
+
+blue
+
+purple
+
+gray
+
+Your output should look like this:
+
+![position](position1.JPG) */
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main{
+     display: flex;
+     flex-wrap: wrap;
+      width: 700px; 
+      height: 1028px;
+     margin-top: 100px;
+     margin-left: 350px;
+     margin-bottom: 100px;
+    
+}
+
+.main-box{
+    width: 50%;
+    height: 50%;
+   
+  
+}
+#main-top-left{
+    background-color: #ccc;
+   
+
+}
+#main-top-right{
+background-color: #e86f88;
+
+}
+#main-bottom-left{
+    background-color: #79badb;
+ 
+
+}
+#main-bottom-right{
+background-color: #a2dbb1;
+
+}
+.small-box{
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#b1{background-color: red;}
+#b2{background-color: orange;
+position: absolute; top: 100px; right: 819px; 
+}
+#b3{background-color:steelblue ;
+position: absolute; top: 564px;}
+#b4{background-color:blue;
+position: absolute; right: 471px;}
+#b5{background-color:purple ;}
+#b6{background-color: coral;
+position: absolute; top: 1078px; 
+left: 650px;}
+#b7{background-color: gray;position: absolute;top: 1078px;}
+#b8{background-color: red;position: absolute;top: 1078px;right: 470px;}
+
+
